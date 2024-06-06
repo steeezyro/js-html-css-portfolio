@@ -26,15 +26,6 @@ a,
   transition: all 300ms ease;
 }
 
-.profile-pic {
-  width: 325px; /* Adjust the width to your desired size */
-  height: 365px; /* Adjust the height to your desired size */
-  border-radius: 50%;
-  object-fit: cover; /* Ensure the image covers the entire circle without stretching */
-  display: block; /* Optional: centers the image if it's a block element */
-  margin: auto; /* Optional: centers the image horizontally if inside a flex or grid container */
-}
-
 /* DESKTOP NAV */
 
 nav,
@@ -438,4 +429,13 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.profile-pic {
+  width: 265px; /* Adjust the width to your desired size */
+  height: 270px; /* Adjust the height to your desired size */
+  border-radius: 50%;
+  object-fit: cover; /* Ensure the image covers the entire circle without stretching */
+  display: block; /* Optional: centers the image if it's a block element */
+  margin: auto; /* Optional: centers the image horizontally if inside a flex or grid container */
 }
